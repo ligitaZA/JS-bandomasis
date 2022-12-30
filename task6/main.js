@@ -13,3 +13,13 @@ const asmenys = [
   { id: '6', name: 'Kamilė', masina: "BMW", masinosGamybosMetai: 1999 },
   { id: '7', name: 'Aloyzas', masina: "Honda", masinosGamybosMetai: 2010 }
 ];
+
+function averageAge(people){
+  let totalAge = 0;
+  for(const person of people) {
+    totalAge += person.masinosGamybosMetai;
+  }
+  const avgAge = totalAge / people.length;
+  return avgAge;
+}
+console.log(averageAge(asmenys));
