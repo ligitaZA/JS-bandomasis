@@ -1,0 +1,24 @@
+img {
+  height: auto;
+  width: 500px;
+  padding: 5px;
+  
+}
+#nuotrauka1-count, #nuotrauka2-count{
+  border: 1px solid rgb(216, 208, 208);
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+}
+h1{
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+}
