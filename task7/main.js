@@ -11,3 +11,10 @@ const asmuo = {
   lytis : "vyras",
   vedes : false
 }
+
+function extractKeys(obj) {
+  const keys = Object.keys(obj);
+  return keys;
+}
+
+console.log(extractKeys(asmuo));
